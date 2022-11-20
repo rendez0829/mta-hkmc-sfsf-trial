@@ -6,6 +6,12 @@
         "source": "^/comhkmctrialztmp001/(.*)$",
         "target": "$1",
         "localDir": "../ztmp_001/webapp"
+      },
+      {
+        "source": "^/sfsf_sandbox/(.*)$",
+        "target": "$1",
+        "destination": "sfsf_sandbox",
+        "csrfProtection": false
       }
     ]
   }

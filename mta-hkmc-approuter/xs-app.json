@@ -1,5 +1,12 @@
 {
   "welcomeFile": "comhkmctrialztmp001/index.html",
   "authenticationMethod": "none",
-  "routes": []
+  "routes": [
+    {
+      "source": "^/sfsf_sandbox/(.*)$",
+      "target": "$1",
+      "destination": "sfsf_sandbox",
+      "csrfProtection": false
+    }
+  ]
 }

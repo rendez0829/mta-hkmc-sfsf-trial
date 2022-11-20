@@ -93,22 +93,10 @@
         "clearControlAggregation": false
       },
       "routes": [
-        {
-          "name": "RouteApp",
-          "pattern": ":?query:",
-          "target": [
-            "TargetApp"
-          ]
-        }
+        { "name": "MAIN", "pattern": "", "target": ["MAIN"] }
       ],
       "targets": {
-        "TargetApp": {
-          "viewType": "XML",
-          "transition": "slide",
-          "clearControlAggregation": false,
-          "viewId": "App",
-          "viewName": "App"
-        }
+        "MAIN": { "viewType": "XML", "viewName": "Main", "viewId": "Main" }
       }
     },
     "rootView": {

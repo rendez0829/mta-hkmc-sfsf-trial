@@ -1,0 +1,8 @@
+{
+    "destinations": [
+        {
+            "url": "https://sandbox.api.sap.com",
+            "name": "sfsf_sandbox"
+        }
+    ]
+}
